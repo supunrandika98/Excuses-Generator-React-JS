@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  background-image: url('../Screenshots/peakpx (56).jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App h1{
+  padding-top: 2%;
+  font-family: fantasy;
+  font-size: 4rem;
+  color: white;
+}
+.App button{
+  margin: 4% 2%;
+  font-size: 1.2rem;
+}
+
+.App p{
+  margin: 6% 4%;
+  color: white;
+  font-size: 1.8rem;
+  font-family: cursive;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
